@@ -1,0 +1,11 @@
+# Archivos de caché
+__pycache__/
+
+# Carpeta de entorno virtual
+env/
+
+# Archivos de registro y archivos de salida
+*.log
+*.out
+
+# Cualquier otro archivo o carpeta que desees excluir
