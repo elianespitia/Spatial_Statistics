@@ -43,7 +43,14 @@ git config --global user.name "Your Name"
 ## How to Collaborate
 Once you have made changes locally, you can collaborate as follows:
 
-1. **Add Your Changes**
+1. **Pull the Last Version**
+Before sending changes, make sure to pull the latest version of the repository to avoid conflicts:
+
+```bash
+git pull origin master
+```
+
+2. **Add Your Changes**
 After making your changes, add them to your staging area using the git add command:
 
 ```bash
@@ -52,14 +59,14 @@ git add .
 
 This command stages all modified and new files for the next commit.
 
-2. **Commit Your Changes**
+3. **Commit Your Changes**
 Commit your changes with a descriptive message explaining the changes you've made:
 
 ```bash
 git commit -m "Brief description of your changes"
 ```
 
-3. **Push Your Changes**
+4. **Push Your Changes**
 Finally, push your changes to the remote repository:
 
 ```bash
