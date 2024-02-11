@@ -40,8 +40,30 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 
-**Important Note**
-It's a good practice to include the virtual environment folder in the .gitignore file. This will prevent it from being pushed to the remote repository and help keep the repository clean and organized.
+## How to Collaborate
+Once you have made changes locally, you can collaborate as follows:
 
-##  Documentation
-For more information on how to use the spatial statistics functions provided in this repository, check out the additional documentation here.
+1. **Add Your Changes**
+After making your changes, add them to your staging area using the git add command:
+
+```bash
+git add .
+```
+
+This command stages all modified and new files for the next commit.
+
+2. **Commit Your Changes**
+Commit your changes with a descriptive message explaining the changes you've made:
+
+```bash
+git commit -m "Brief description of your changes"
+```
+
+3. **Push Your Changes**
+Finally, push your changes to the remote repository:
+
+```bash
+git push origin master
+```
+
+This command pushes your changes to the master branch of the remote repository.
